@@ -1,0 +1,31 @@
+.user_brief_info {
+
+}
+
+.user_box {
+   border-radius:var(--Corner-Rounding);
+   background:var(--Background-2);
+   padding:var(--Rightside-Boxes-Padding);
+}
+
+.user_box + .user_box {
+   margin-top:var(--Rightside-Boxes-Spacing);
+}
+
+.user_box > h4:first-child {
+   margin-top:0;
+}
+
+.user {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.user_details p:first-of-type {
+   margin-top: 0px;
+}
+
+.user_details p:last-of-type {
+   margin-bottom: 0px;
+}
